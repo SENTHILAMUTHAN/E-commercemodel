@@ -65,7 +65,7 @@ public class BaseDemblaze {
 		TakesScreenshot s= (TakesScreenshot)driver;
 		
 		File src = s.getScreenshotAs(OutputType.FILE);
-		File des = new File("D:\\Eclipse\\Demoblaze\\screenshots\\" +filename+ ".png");
+		File des = new File(System.getProperty("user.dir")+"\\screenshots\\" +filename+ ".png");
 		FileUtils.copyFile(src, des);
 		
 	}
