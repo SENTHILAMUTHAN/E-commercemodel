@@ -18,7 +18,7 @@ public class RunnnerDemoblazeTrial extends BaseDemblaze {
 		Wait();
 		openwebpage("https://www.demoblaze.com/index.html");
 
-		System.out.println("changes done in b_3 ");
+		
 
 		
 
