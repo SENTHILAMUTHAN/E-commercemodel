@@ -17,6 +17,8 @@ public class RunnnerDemoblazeTrial extends BaseDemblaze {
 		maximizeWindow();
 		Wait();
 		openwebpage("https://www.demoblaze.com/index.html");
+		System.out.println("changes done ");
+		
 
 		Homepojo h = new Homepojo();
 		
